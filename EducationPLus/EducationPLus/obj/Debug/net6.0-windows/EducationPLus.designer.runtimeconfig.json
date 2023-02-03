@@ -12,10 +12,12 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\valyo\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\valyo\\.nuget\\packages"
+      "C:\\Users\\Kristiyan Kirilov\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Kristiyan Kirilov\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
+      "System.Reflection.NullabilityInfoContext.IsSupported": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }

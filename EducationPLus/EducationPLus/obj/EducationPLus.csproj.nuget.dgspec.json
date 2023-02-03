@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "G:\\EducationPlus Project\\EducationPlus-Project\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
+    "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
   },
   "projects": {
-    "G:\\EducationPlus Project\\EducationPlus-Project\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
+    "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\EducationPlus Project\\EducationPlus-Project\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "projectUniqueName": "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
         "projectName": "EducationPLus",
-        "projectPath": "G:\\EducationPlus Project\\EducationPlus-Project\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
-        "packagesPath": "C:\\Users\\valyo\\.nuget\\packages\\",
-        "outputPath": "G:\\EducationPlus Project\\EducationPlus-Project\\EducationPLus\\EducationPLus\\obj\\",
+        "projectPath": "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "packagesPath": "C:\\Users\\Kristiyan Kirilov\\.nuget\\packages\\",
+        "outputPath": "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\valyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kristiyan Kirilov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,18 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
