@@ -1,0 +1,59 @@
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.exe
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.deps.json
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.runtimeconfig.json
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.dll
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.pdb
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.AssemblyReference.cache
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.Form1.resources
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.GenerateResource.cache
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.AssemblyInfoInputs.cache
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.AssemblyInfo.cs
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.CoreCompileInputs.cache
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.dll
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\refint\EducationPLus.dll
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.pdb
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.genruntimeconfig.cache
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\ref\EducationPLus.dll
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.TypeOfRegistration.resources
+G:\Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.UserRegister.resources
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.exe
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.deps.json
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.runtimeconfig.json
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.dll
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.pdb
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.AssemblyReference.cache
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.Form1.resources
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.TypeOfRegistration.resources
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.UserRegister.resources
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.GenerateResource.cache
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.GeneratedMSBuildEditorConfig.editorconfig
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.AssemblyInfoInputs.cache
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.AssemblyInfo.cs
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.CoreCompileInputs.cache
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.dll
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\refint\EducationPLus.dll
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.pdb
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.genruntimeconfig.cache
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\ref\EducationPLus.dll
+G:\C# Projects\EducationPlus\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.BusinessRegistration.resources
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.exe
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.deps.json
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.runtimeconfig.json
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.dll
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\bin\Debug\net6.0-windows\EducationPLus.pdb
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.AssemblyReference.cache
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.BusinessRegistration.resources
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.Form1.resources
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.TypeOfRegistration.resources
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.UserRegister.resources
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.GenerateResource.cache
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.GeneratedMSBuildEditorConfig.editorconfig
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.AssemblyInfoInputs.cache
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.AssemblyInfo.cs
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.csproj.CoreCompileInputs.cache
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.dll
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\refint\EducationPLus.dll
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.pdb
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\EducationPLus.genruntimeconfig.cache
+G:\EducationPlus Project\EducationPlus-Project\EducationPLus\EducationPLus\obj\Debug\net6.0-windows\ref\EducationPLus.dll
