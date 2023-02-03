@@ -1,3 +1,5 @@
+using EducationPLus.Controllers;
+
 namespace EducationPLus
 {
     public partial class Form1 : Form
@@ -15,6 +17,9 @@ namespace EducationPLus
         private void button1_Click(object sender, EventArgs e)
         {
             //LogIn
+            UserController userCtrl = new UserController();
+
+            userCtrl.LogIn(NameHolder.Text, passHolder.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
