@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
+    "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
   },
   "projects": {
-    "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
+    "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "projectUniqueName": "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
         "projectName": "EducationPLus",
-        "projectPath": "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
-        "packagesPath": "C:\\Users\\Kristiyan Kirilov\\.nuget\\packages\\",
-        "outputPath": "D:\\Random programming\\Ludogorie_Hack\\EducationPLus\\EducationPLus\\obj\\",
+        "projectPath": "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "packagesPath": "C:\\Users\\Valentin Markov\\.nuget\\packages\\",
+        "outputPath": "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kristiyan Kirilov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Valentin Markov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

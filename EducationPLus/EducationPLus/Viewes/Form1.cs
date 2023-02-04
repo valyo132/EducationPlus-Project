@@ -33,6 +33,11 @@ namespace EducationPLus
             {
                 UserController userCtrl = new UserController();
                 userCtrl.LogIn(NameHolder.Text, passHolder.Text);
+
+                UserHome userHomePage = new UserHome();
+                this.Hide();
+                userHomePage.ShowDialog();
+                this.Close();
             }
         }
 
