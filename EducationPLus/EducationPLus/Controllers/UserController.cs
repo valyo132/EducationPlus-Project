@@ -26,15 +26,69 @@ namespace EducationPLus.Controllers
                 return;
             }
 
-            User user = new User();
-            user = context.Users.Where(u => u.Username.Equals(username)).FirstOrDefault();
+            selectedUser = context.Users.Where(u => u.Username == username && u.Password == password).FirstOrDefault();
 
 
-            if (user == null)
-                MessageBox.Show("Няма потребител с такова потребителско име!");
+            if (selectedUser == null)
+                MessageBox.Show("Грешна парола или потребителско име!");
 
             else
                 MessageBox.Show($"Успешно влизане!");
+        }
+
+        public void Register(string firstname, string lastname, string email, string username, string password, int age, string gender, string description = "")
+        {
+            if (string.IsNullOrWhiteSpace(firstname))
+            {
+                MessageBox.Show("Невалидно име!");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(lastname))
+            {
+                MessageBox.Show("Невалидно име!");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(username))
+            {
+                MessageBox.Show("Невалидно потребителско име!");
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Невалидна парола!");
+                return;
+            }
+            if (age == null || age <= 0)
+            {
+                MessageBox.Show("Невалидна възраст!");
+                return;
+            }
+
+
+            selectedUser = context.Users.Where(u => u.Username == username).FirstOrDefault();
+
+            if (selectedUser != null)
+            {
+                MessageBox.Show("Потребителското име е заето!");
+                return;
+            }
+
+            User userToCreate = new User();
+            userToCreate.FirstName = firstname;
+            userToCreate.LastName = lastname;
+            userToCreate.Username = username;
+            userToCreate.Password = password;
+            userToCreate.Age = age;
+            userToCreate.Gender = gender;
+            userToCreate.Description = description;
+            userToCreate.Email = email;
+            userToCreate.Description = description;
+
+            context.Add(userToCreate);
+            MessageBox.Show("Успешна регистрация!");
+
+            context.SaveChanges();
         }
     }
 }

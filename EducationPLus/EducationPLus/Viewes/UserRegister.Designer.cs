@@ -39,6 +39,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.goBackButton = new System.Windows.Forms.Button();
+            this.usernameHolder = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // firstNameHolder
@@ -52,7 +53,7 @@
             // 
             // lastNameHolder
             // 
-            this.lastNameHolder.Location = new System.Drawing.Point(91, 95);
+            this.lastNameHolder.Location = new System.Drawing.Point(91, 87);
             this.lastNameHolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lastNameHolder.Name = "lastNameHolder";
             this.lastNameHolder.PlaceholderText = "Last name";
@@ -61,7 +62,7 @@
             // 
             // passwordHolder
             // 
-            this.passwordHolder.Location = new System.Drawing.Point(91, 178);
+            this.passwordHolder.Location = new System.Drawing.Point(91, 203);
             this.passwordHolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.passwordHolder.Name = "passwordHolder";
             this.passwordHolder.PlaceholderText = "Password";
@@ -113,7 +114,7 @@
             // 
             // emailHolder
             // 
-            this.emailHolder.Location = new System.Drawing.Point(91, 135);
+            this.emailHolder.Location = new System.Drawing.Point(91, 164);
             this.emailHolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.emailHolder.Name = "emailHolder";
             this.emailHolder.PlaceholderText = "Email";
@@ -129,6 +130,7 @@
             this.button1.TabIndex = 8;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -150,11 +152,21 @@
             this.goBackButton.UseVisualStyleBackColor = true;
             this.goBackButton.Click += new System.EventHandler(this.goBackButton_Click);
             // 
+            // usernameHolder
+            // 
+            this.usernameHolder.Location = new System.Drawing.Point(91, 124);
+            this.usernameHolder.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.usernameHolder.Name = "usernameHolder";
+            this.usernameHolder.PlaceholderText = "Username";
+            this.usernameHolder.Size = new System.Drawing.Size(254, 23);
+            this.usernameHolder.TabIndex = 11;
+            // 
             // UserRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 440);
+            this.Controls.Add(this.usernameHolder);
             this.Controls.Add(this.goBackButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -187,5 +199,6 @@
         private Button button1;
         private Label label1;
         private Button goBackButton;
+        private TextBox usernameHolder;
     }
 }
