@@ -14,6 +14,7 @@ namespace EducationPLus.Controllers
 
         public void LogIn(string username, string password)
         {
+            // tuk ima novo
             if (string.IsNullOrWhiteSpace(username))
             {
                 MessageBox.Show("Невалидно потребителско име!");
@@ -38,6 +39,7 @@ namespace EducationPLus.Controllers
 
         public void Register(string firstname, string lastname, string email, string username, string password, int age, string gender, string description = "")
         {
+            //tova e novo
             if (string.IsNullOrWhiteSpace(firstname))
             {
                 MessageBox.Show("Невалидно име!");

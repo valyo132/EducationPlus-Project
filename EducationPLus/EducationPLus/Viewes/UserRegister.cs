@@ -39,6 +39,7 @@ namespace EducationPLus
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //tova e novo
             UserController userCtrl = new UserController();
             userCtrl.Register(firstNameHolder.Text, lastNameHolder.Text, emailHolder.Text, usernameHolder.Text, passwordHolder.Text, int.Parse(ageHolder.Text), Gender(), descriptionHolder.Text);
         }
