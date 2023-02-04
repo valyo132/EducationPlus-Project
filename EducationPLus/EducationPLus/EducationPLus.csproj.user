@@ -10,6 +10,9 @@
     <Compile Update="Viewes\TypeOfRegistration.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Viewes\UserHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Viewes\UserRegister.cs">
       <SubType>Form</SubType>
     </Compile>
