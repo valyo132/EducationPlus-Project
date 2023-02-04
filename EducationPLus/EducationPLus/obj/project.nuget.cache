@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZf7ajkA/ey9L3/mCkbZsRF+MIQ6CBDthZ/cq7yRGhODzBLNLGHc2zxxdPqd2xueQkNN9X4MehcJRslllzpxgQ==",
+  "dgSpecHash": "/kPYGmH1+7tJFjN3gXE7N4UBY5j8oOgl8Kw/RhH6tzylylMOhlETB/fkdonXud+wH5PpdKp4u2qF5AKGzuY0ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPluz\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+  "projectFilePath": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ludogorie3\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ludogorie3\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
