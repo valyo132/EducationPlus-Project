@@ -7,7 +7,13 @@
     <Compile Update="Viewes\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Viewes\OrganisationHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Viewes\TypeOfRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Viewes\UserHome.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Viewes\UserRegister.cs">
