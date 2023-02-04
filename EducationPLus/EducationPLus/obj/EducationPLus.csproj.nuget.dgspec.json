@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
+    "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
   },
   "projects": {
-    "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
+    "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "projectUniqueName": "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
         "projectName": "EducationPLus",
-        "projectPath": "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
-        "packagesPath": "C:\\Users\\Valentin Markov\\.nuget\\packages\\",
-        "outputPath": "G:\\Projects\\project-working\\EducationPLus\\EducationPLus\\obj\\",
+        "projectPath": "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "packagesPath": "C:\\Users\\ludogorie3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Valentin Markov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ludogorie3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

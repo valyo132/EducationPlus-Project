@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Valentin Markov\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Valentin Markov\\.nuget\\packages"
+      "C:\\Users\\ludogorie3\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ludogorie3\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.NullabilityInfoContext.IsSupported": true,
