@@ -2017,11 +2017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+      "projectUniqueName": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPluz\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
       "projectName": "EducationPLus",
-      "projectPath": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+      "projectPath": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPluz\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
       "packagesPath": "C:\\Users\\ludogorie3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPLus\\EducationPLus\\obj\\",
+      "outputPath": "C:\\Users\\ludogorie3\\Desktop\\ludoprojecc\\EducationPluz\\EducationPluz\\EducationPLus\\EducationPLus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ludogorie3\\AppData\\Roaming\\NuGet\\NuGet.Config",
