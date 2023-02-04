@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EducationPLus.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230203230255_Initial")]
+    [Migration("20230204092238_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
