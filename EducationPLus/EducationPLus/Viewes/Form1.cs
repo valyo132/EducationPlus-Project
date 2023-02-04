@@ -1,4 +1,5 @@
 using EducationPLus.Controllers;
+using EducationPLus.Viewes;
 
 namespace EducationPLus
 {
@@ -16,10 +17,23 @@ namespace EducationPLus
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //LogIn
-            UserController userCtrl = new UserController();
+            if (checkIfOrganisation.Checked)
+            {
+                NGOController ngo = new NGOController();
+                ngo.LogIn(NameHolder.Text, passHolder.Text);
 
-            userCtrl.LogIn(NameHolder.Text, passHolder.Text);
+                Validators.Name = NameHolder.Text;
+
+                OrganisationHome page = new OrganisationHome();
+                this.Hide();
+                page.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                UserController userCtrl = new UserController();
+                userCtrl.LogIn(NameHolder.Text, passHolder.Text);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)

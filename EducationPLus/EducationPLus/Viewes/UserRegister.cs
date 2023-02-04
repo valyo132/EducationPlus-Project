@@ -42,6 +42,11 @@ namespace EducationPLus
             //tova e novo
             UserController userCtrl = new UserController();
             userCtrl.Register(firstNameHolder.Text, lastNameHolder.Text, emailHolder.Text, usernameHolder.Text, passwordHolder.Text, int.Parse(ageHolder.Text), Gender(), descriptionHolder.Text);
+
+            Form1 log = new Form1();
+            this.Hide();
+            log.ShowDialog();
+            this.Close();
         }
     }
 }

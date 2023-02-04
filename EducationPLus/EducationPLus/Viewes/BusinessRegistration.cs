@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EducationPLus.Controllers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,17 @@ namespace EducationPLus
             TypeOfRegistration reg = new TypeOfRegistration();
             this.Hide();
             reg.ShowDialog();
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NGOController ngoController = new NGOController();
+            ngoController.Register(nameHolder.Text, emailHolder.Text, passwordHolder.Text, desciptionHolder.Text, eventPlaceHolder.Text);
+
+            Form1 log = new Form1();
+            this.Hide();
+            log.ShowDialog();
             this.Close();
         }
     }

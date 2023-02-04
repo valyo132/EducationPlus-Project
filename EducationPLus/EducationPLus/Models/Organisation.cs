@@ -14,7 +14,7 @@ namespace EducationPLus.Models
         public string Password { get; set; }
         public string Description { get; set; }
         public string Place { get; set; }
-        public List<User> Followers{ get; set; }
-        public List<Order> Oreders{ get; set; }
+        public List<User> Followers { get; set; } = new List<User>();
+        public List<Order> Oreders { get; set; } = new List<Order>();
     }
 }

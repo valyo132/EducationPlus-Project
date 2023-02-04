@@ -9,5 +9,7 @@ namespace EducationPLus
     public static class Validators
     {
         public static string Name { get; set; }
+
+        public static string NewOrderName { get; set; }
     }
 }
