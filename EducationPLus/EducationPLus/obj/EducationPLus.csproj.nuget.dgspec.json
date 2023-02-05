@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
+    "C:\\Users\\ludogorie3\\Desktop\\clonedproject\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
+    "C:\\Users\\ludogorie3\\Desktop\\clonedproject\\EducationPLus\\EducationPLus\\EducationPLus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "projectUniqueName": "C:\\Users\\ludogorie3\\Desktop\\clonedproject\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
         "projectName": "EducationPLus",
-        "projectPath": "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
+        "projectPath": "C:\\Users\\ludogorie3\\Desktop\\clonedproject\\EducationPLus\\EducationPLus\\EducationPLus.csproj",
         "packagesPath": "C:\\Users\\ludogorie3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ludogorie3\\Desktop\\projectRep\\EducationPLus\\EducationPLus\\obj\\",
+        "outputPath": "C:\\Users\\ludogorie3\\Desktop\\clonedproject\\EducationPLus\\EducationPLus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ludogorie3\\AppData\\Roaming\\NuGet\\NuGet.Config",
