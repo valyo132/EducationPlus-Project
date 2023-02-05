@@ -20,7 +20,10 @@ namespace EducationPLus
             if (checkIfOrganisation.Checked)
             {
                 NGOController ngo = new NGOController();
-                ngo.LogIn(NameHolder.Text, passHolder.Text);
+                bool logInStatus = ngo.LogIn(NameHolder.Text, passHolder.Text);
+
+                if (!logInStatus)
+                    return;
 
                 Validators.Name = NameHolder.Text;
 
@@ -32,8 +35,13 @@ namespace EducationPLus
             else
             {
                 UserController userCtrl = new UserController();
-                userCtrl.LogIn(NameHolder.Text, passHolder.Text);
+                bool registerStatus = userCtrl.LogIn(NameHolder.Text, passHolder.Text);
+
+                if (!registerStatus)
+                    return;
+
                 Validators.Username = NameHolder.Text;
+
                 UserHome userHomePage = new UserHome();
                 this.Hide();
                 userHomePage.ShowDialog();
@@ -47,7 +55,6 @@ namespace EducationPLus
             this.Hide();
             type.ShowDialog();
             this.Close();
-            //Register
         }
     }
 }

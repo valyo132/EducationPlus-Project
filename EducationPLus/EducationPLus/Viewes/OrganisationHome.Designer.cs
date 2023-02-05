@@ -193,7 +193,7 @@
             // 
             this.adHeader8.AutoSize = true;
             this.adHeader8.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader8.Location = new System.Drawing.Point(40, 10);
+            this.adHeader8.Location = new System.Drawing.Point(12, 10);
             this.adHeader8.Name = "adHeader8";
             this.adHeader8.Size = new System.Drawing.Size(0, 31);
             this.adHeader8.TabIndex = 1;
@@ -252,7 +252,7 @@
             // 
             this.adHeader7.AutoSize = true;
             this.adHeader7.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader7.Location = new System.Drawing.Point(40, 10);
+            this.adHeader7.Location = new System.Drawing.Point(9, 10);
             this.adHeader7.Name = "adHeader7";
             this.adHeader7.Size = new System.Drawing.Size(0, 31);
             this.adHeader7.TabIndex = 1;
@@ -311,7 +311,7 @@
             // 
             this.adHeader6.AutoSize = true;
             this.adHeader6.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader6.Location = new System.Drawing.Point(40, 10);
+            this.adHeader6.Location = new System.Drawing.Point(12, 10);
             this.adHeader6.Name = "adHeader6";
             this.adHeader6.Size = new System.Drawing.Size(0, 31);
             this.adHeader6.TabIndex = 1;
@@ -370,7 +370,7 @@
             // 
             this.adHeader5.AutoSize = true;
             this.adHeader5.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader5.Location = new System.Drawing.Point(40, 10);
+            this.adHeader5.Location = new System.Drawing.Point(12, 10);
             this.adHeader5.Name = "adHeader5";
             this.adHeader5.Size = new System.Drawing.Size(0, 31);
             this.adHeader5.TabIndex = 1;
@@ -429,7 +429,7 @@
             // 
             this.adHeader4.AutoSize = true;
             this.adHeader4.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader4.Location = new System.Drawing.Point(40, 10);
+            this.adHeader4.Location = new System.Drawing.Point(9, 10);
             this.adHeader4.Name = "adHeader4";
             this.adHeader4.Size = new System.Drawing.Size(0, 31);
             this.adHeader4.TabIndex = 1;
@@ -488,7 +488,7 @@
             // 
             this.adHeader3.AutoSize = true;
             this.adHeader3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader3.Location = new System.Drawing.Point(40, 10);
+            this.adHeader3.Location = new System.Drawing.Point(12, 3);
             this.adHeader3.Name = "adHeader3";
             this.adHeader3.Size = new System.Drawing.Size(0, 31);
             this.adHeader3.TabIndex = 1;
@@ -547,7 +547,7 @@
             // 
             this.adHeader2.AutoSize = true;
             this.adHeader2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader2.Location = new System.Drawing.Point(40, 10);
+            this.adHeader2.Location = new System.Drawing.Point(12, 10);
             this.adHeader2.Name = "adHeader2";
             this.adHeader2.Size = new System.Drawing.Size(0, 31);
             this.adHeader2.TabIndex = 1;
@@ -606,7 +606,7 @@
             // 
             this.adHeader1.AutoSize = true;
             this.adHeader1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.adHeader1.Location = new System.Drawing.Point(40, 10);
+            this.adHeader1.Location = new System.Drawing.Point(9, 10);
             this.adHeader1.Name = "adHeader1";
             this.adHeader1.Size = new System.Drawing.Size(0, 31);
             this.adHeader1.TabIndex = 1;

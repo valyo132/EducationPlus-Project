@@ -1,6 +1,7 @@
 ﻿using EducationPLus.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,68 +13,74 @@ namespace EducationPLus.Controllers
         User selectedUser = new User();
         Context context = new Context();
 
-        public void LogIn(string username, string password)
+        public bool LogIn(string username, string password)
         {
-            // tuk ima novo
             if (string.IsNullOrWhiteSpace(username))
             {
                 MessageBox.Show("Невалидно потребителско име!");
-                return;
+                return false;
             }
 
             if (string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Невалидна парола!");
-                return;
+                return false;
             }
 
             selectedUser = context.Users.Where(u => u.Username == username && u.Password == password).FirstOrDefault();
 
 
             if (selectedUser == null)
+            {
                 MessageBox.Show("Грешна парола или потребителско име!");
+                return false;
+            }
 
-            else
-                MessageBox.Show($"Успешно влизане!");
+            MessageBox.Show($"Успешно влизане!");
+            return true;
         }
 
-        public void Register(string firstname, string lastname, string email, string username, string password, int age, string gender, string description = "")
+        public bool Register(string firstname, string lastname, string email, string username, string password, int age, string gender, string description = "")
         {
-            //tova e novo
             if (string.IsNullOrWhiteSpace(firstname))
             {
                 MessageBox.Show("Невалидно име!");
-                return;
+                return false;
             }
             if (string.IsNullOrWhiteSpace(lastname))
             {
                 MessageBox.Show("Невалидно име!");
-                return;
+                return false;
             }
 
             if (string.IsNullOrWhiteSpace(username))
             {
                 MessageBox.Show("Невалидно потребителско име!");
-                return;
+                return false;
             }
             if (string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Невалидна парола!");
-                return;
+                return false;
             }
             if (age == null || age <= 0)
             {
                 MessageBox.Show("Невалидна възраст!");
-                return;
+                return false;
             }
 
+            if (!Validators.IsEmailValid(email))
+            {
+                MessageBox.Show("Невалидна електронна поща!");
+                return false;
+            }
 
             selectedUser = context.Users.Where(u => u.Username == username).FirstOrDefault();
 
             if (selectedUser != null)
             {
                 MessageBox.Show("Потребителското име е заето!");
-                return;
+                return false;
             }
 
             User userToCreate = new User();
@@ -91,6 +98,8 @@ namespace EducationPLus.Controllers
             MessageBox.Show("Успешна регистрация!");
 
             context.SaveChanges();
+
+            return true;    
         }
     }
 }
