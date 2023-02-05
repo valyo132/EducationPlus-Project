@@ -1,4 +1,5 @@
 using EducationPLus.Controllers;
+using EducationPLus.Validation;
 using EducationPLus.Viewes;
 
 namespace EducationPLus
@@ -20,7 +21,10 @@ namespace EducationPLus
             if (checkIfOrganisation.Checked)
             {
                 NGOController ngo = new NGOController();
-                ngo.LogIn(NameHolder.Text, passHolder.Text);
+                bool loginStatus = ngo.LogIn(NameHolder.Text, passHolder.Text);
+
+                if (!loginStatus)
+                    return;
 
                 Validators.Name = NameHolder.Text;
 
@@ -32,7 +36,10 @@ namespace EducationPLus
             else
             {
                 UserController userCtrl = new UserController();
-                userCtrl.LogIn(NameHolder.Text, passHolder.Text);
+                bool loginStatus = userCtrl.LogIn(NameHolder.Text, passHolder.Text);
+
+                if (!loginStatus)
+                    return;
 
                 UserHome userHomePage = new UserHome();
                 this.Hide();
@@ -47,7 +54,6 @@ namespace EducationPLus
             this.Hide();
             type.ShowDialog();
             this.Close();
-            //Register
         }
     }
 }

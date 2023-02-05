@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EducationPLus
+namespace EducationPLus.Validation
 {
     public static class Validators
     {
