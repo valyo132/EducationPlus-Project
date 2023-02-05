@@ -29,7 +29,10 @@ namespace EducationPLus
         private void button1_Click(object sender, EventArgs e)
         {
             NGOController ngoController = new NGOController();
-            ngoController.Register(nameHolder.Text, emailHolder.Text, passwordHolder.Text, desciptionHolder.Text, eventPlaceHolder.Text);
+            bool registartionStatus = ngoController.Register(nameHolder.Text, emailHolder.Text, passwordHolder.Text, desciptionHolder.Text, eventPlaceHolder.Text);
+
+            if (!registartionStatus)
+                return;
 
             Form1 log = new Form1();
             this.Hide();

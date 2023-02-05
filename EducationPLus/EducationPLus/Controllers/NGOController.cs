@@ -3,6 +3,7 @@ using EducationPLus.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,48 +15,51 @@ namespace EducationPLus.Controllers
         Context context = new Context();
         OrganisationDAO orgDAO = new OrganisationDAO();
 
-        public void LogIn(string name, string password)
+        public bool LogIn(string name, string password)
         {
             if (string.IsNullOrWhiteSpace(name))
             {
                 MessageBox.Show("Невалидно потребителско име!");
-                return;
+                return false;
             }
 
             if (string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Невалидна парола!");
-                return;
+                return false;
             }
 
             organisation = orgDAO.GetByName(name);
 
 
             if (organisation == null)
+            {
                 MessageBox.Show("Грешна парола или потребителско име!");
+                return false;
+            }
 
-            else
-                MessageBox.Show($"Успешно влизане!");
+            MessageBox.Show($"Успешно влизане!");
+            return true;
         }
 
-        public void Register(string name, string email, string password, string place, string description = "")
+        public bool Register(string name, string email, string password, string place, string description = "")
         {
             if (string.IsNullOrWhiteSpace(name))
             {
                 MessageBox.Show("Невалидно име!");
-                return;
+                return false;
             }
 
             if (string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Невалидна парола!");
-                return;
+                return false;
             }
 
             if (string.IsNullOrWhiteSpace(place))
             {
                 MessageBox.Show("Невалиднo местополужение!");
-                return;
+                return false;
             }
 
             organisation = orgDAO.GetByName(name);
@@ -63,7 +67,13 @@ namespace EducationPLus.Controllers
             if (organisation != null)
             {
                 MessageBox.Show("Потребителското име е заето!");
-                return;
+                return false;
+            }
+
+            if (!Validators.IsEmailValid(email))
+            {
+                MessageBox.Show("Невалидна електронна поща!");
+                return false;
             }
 
             Organisation organisationToCreate = new Organisation();
@@ -77,6 +87,8 @@ namespace EducationPLus.Controllers
             MessageBox.Show("Успешна регистрация!");
 
             context.SaveChanges();
+
+            return true;
         }
     }
 }

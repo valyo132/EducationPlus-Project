@@ -89,8 +89,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader1.Text = orderName.Name;
                 placeLabel1.Text = orderName.Place;
-                startDateLable1.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable1.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable1.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable1.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad1.Visible = true;
             }
@@ -98,8 +98,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader2.Text = orderName.Name;
                 placeLabel2.Text = orderName.Place;
-                startDateLable2.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable2.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable2.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable2.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad2.Visible = true;
             }
@@ -107,8 +107,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader3.Text = orderName.Name;
                 placeLabel3.Text = orderName.Place;
-                startDateLable3.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable3.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable3.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable3.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad3.Visible = true;
             }
@@ -116,8 +116,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader4.Text = orderName.Name;
                 placeLabel4.Text = orderName.Place;
-                startDateLable4.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable4.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable4.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable4.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad4.Visible = true;
             }
@@ -125,8 +125,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader5.Text = orderName.Name;
                 placeLabel5.Text = orderName.Place;
-                startDateLable5.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable5.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable5.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable5.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad5.Visible = true;
             }
@@ -134,8 +134,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader6.Text = orderName.Name;
                 placeLabel6.Text = orderName.Place;
-                startDateLable6.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable6.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable6.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable6.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad6.Visible = true;
             }
@@ -143,8 +143,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader7.Text = orderName.Name;
                 placeLabel7.Text = orderName.Place;
-                startDateLable7.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable7.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable7.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable7.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad7.Visible = true;
             }
@@ -152,8 +152,8 @@ namespace EducationPLus.Viewes
             {
                 adHeader8.Text = orderName.Name;
                 placeLabel8.Text = orderName.Place;
-                startDateLable8.Text = orderName.StartDate.ToString("dd-mm-yyyy");
-                endDateLable8.Text = orderName.EndDate.ToString("dd-mm-yyyy");
+                startDateLable8.Text = orderName.StartDate.ToString("dd-MM-yyyy");
+                endDateLable8.Text = orderName.EndDate.ToString("dd-MM-yyyy");
 
                 ad8.Visible = true;
             }
