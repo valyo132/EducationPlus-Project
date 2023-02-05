@@ -78,6 +78,7 @@
             // 
             this.passHolder.Location = new System.Drawing.Point(42, 204);
             this.passHolder.Name = "passHolder";
+            this.passHolder.PasswordChar = '*';
             this.passHolder.PlaceholderText = "Password";
             this.passHolder.Size = new System.Drawing.Size(268, 27);
             this.passHolder.TabIndex = 4;
