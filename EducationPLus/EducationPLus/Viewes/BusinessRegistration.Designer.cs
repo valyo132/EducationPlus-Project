@@ -59,7 +59,7 @@
             // 
             // emailHolder
             // 
-            this.emailHolder.Location = new System.Drawing.Point(56, 132);
+            this.emailHolder.Location = new System.Drawing.Point(56, 121);
             this.emailHolder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.emailHolder.Name = "emailHolder";
             this.emailHolder.PlaceholderText = "Email";
@@ -108,9 +108,10 @@
             // 
             // passwordHolder
             // 
-            this.passwordHolder.Location = new System.Drawing.Point(56, 182);
+            this.passwordHolder.Location = new System.Drawing.Point(56, 177);
             this.passwordHolder.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.passwordHolder.Name = "passwordHolder";
+            this.passwordHolder.PasswordChar = '*';
             this.passwordHolder.PlaceholderText = "password";
             this.passwordHolder.Size = new System.Drawing.Size(302, 27);
             this.passwordHolder.TabIndex = 13;
